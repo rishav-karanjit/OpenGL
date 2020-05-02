@@ -19,7 +19,7 @@ b3 = 1 if x<xmin<br>
 <b>Step 3:</b> For each end points compute its outcodes(rule same as above binary number)<br>
 
 <b>Step 4:</b> Consider a line segment whose outcodes are given by o1 = outcode(x1, y1) and o2 = outcode(x2, y2).
-We can now reason on the basis of these outcodes. There are four cases:<br><br>
+We can now reason on the basis of these outcodes. There are four cases:<br>
 
 <b>Case 1:</b>(o1 = o2 = 0). Both endpoints are inside the clipping window.<br>
 <b>Case 2:</b>(o1 = 0, o2 = 0; or vice versa). One endpoint is inside the clipping window;one is outside.<br>
